@@ -2,6 +2,20 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   
+  :root {
+    --background:#E5E5E5;
+    --blue-100:#B2B9FF;
+    --blue-200:#5965E0;
+    --blue-300:#4953B8;
+    --green:#4CD62B;
+    --red:#E83F5B;
+    --black-600:#2E384D;
+    --gray-200:#DCDDE0;
+    --gray-600:#666666;
+    --white: #ffffff;
+
+  }
+
    @media(max-width: 1080px) {
     html {
       font-size: 93.75%;
